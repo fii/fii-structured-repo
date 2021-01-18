@@ -6,7 +6,7 @@ metadata:
     app: multi-ns.nginx
   name: multi-ns.nginx
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: multi-ns.nginx
